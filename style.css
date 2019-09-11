@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    font-family: Georgia, Verdana; 
+    font-size: 14px;
+    margin: 0px;
+}
+
+
+}
+p {
+    align: center;
+}
+
+.item-1 td {
+    box-align: right;        
+}
+
+
+div form {
+    width: 527px;
+    height: 34px;
+    margin: 0px 100px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.table {
+    background-color: rgb(235, 233, 233);
+    color: black;
+    display: grid; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+     /* Add a gray right border to all list items, except the last item (last-child) */
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
