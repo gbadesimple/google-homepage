@@ -1,55 +1,90 @@
+/* styling my google web*/
+
 body {
     background-color: white;
-    font-family: Georgia, Verdana; 
-    font-size: 14px;
-    margin: 0px;
+    font: black;
+    font-family: sans-serif, arial;
+    margin: 0px 0px;
+}
+
+/* content */
+.content {
+    text-align: center;
+    padding: 100px;    
+}
+
+.content img {
+    padding: 20px;
+}
+
+.content .search-bar {
+    border-radius: 15px;       
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    box-shadow: 2px 2px 10px rgba(214, 214, 214, 0.5);
+    
 }
 
 
-}
-p {
-    align: center;
-}
-
-.item-1 td {
-    box-align: right;        
+/* upper nav bar */
+.upper_nav_bar input {
+    background-color: blue;
+    color: white;
 }
 
-
-div form {
-    width: 527px;
-    height: 34px;
-    margin: 0px 100px;
-    background-color: transparent;
-    border-radius: 25px;
-}
-
-.table {
-    background-color: rgb(235, 233, 233);
-    color: black;
-    display: grid; 
-}
-
-ul {
+.upper_nav_bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-     /* Add a gray right border to all list items, except the last item (last-child) */
-  }
-  
-  li {
-    float: left;
-  }
+    position: fixed;
+    overflow: hidden;
+    top: 0;      
+}
 
-  li a {
+.upper_nav_bar li{
+    display: inline;
+    float: right;
+}
+
+
+.upper_nav_bar a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
+    color: rgb(0,0,0,0.87);
+    background-color: white;
     text-decoration: none;
-  }
+}
+
+/* bottom nav bar */
+.bottom_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    border: 1px solid  rgb(236, 234, 234);
+    background-color: rgb(236, 234, 234);        
+}
+
+
+.bottom_nav li {
+    display: inline;
+}
+
+
+.bottom_nav a {
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+    background-color:  rgb(236, 234, 234);
+    text-decoration: none;
+}
+
