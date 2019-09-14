@@ -1,3 +1,3 @@
-This is Odin Project curriculum: Build Google-Homepage!
-
+This is Odin Project curriculum: Deconstruct and Build Google-Homepage!
+Important change made.
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)!
